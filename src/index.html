@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <form id="login">
+      <h3>AnotáBlet</h3>
+
+      <label for="username">Usuário</label>
+      <input type="text" style="width: 100%" placeholder="Email ou Usuário" id="username" name="username" required />
+      <br />
+      <label for="password">Senha</label>
+      <input type="password" style="width: 100%" placeholder="********" id="password" name="password" required />
+
+      <button id="botao" style="width: 100%" type="button" onclick="loginUsuario()">Login</button>
+      <button id="botao2" style="width: 100%" onclick="window.location.href='./criarConta.html';">Criar Conta</button>
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

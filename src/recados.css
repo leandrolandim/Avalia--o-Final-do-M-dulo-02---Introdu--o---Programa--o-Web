@@ -1,0 +1,25 @@
+body {
+  background: url(./kelly-sikkema-Oz_J_FXKvIs-unsplash.jpg);
+  background-size: cover;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #aaa8a8;
+  text-align: left;
+  padding: 8px;
+  backdrop-filter: blur(10px);
+}
+
+tr:nth-child() {
+  backdrop-filter: blur(3px);
+  font-style: italic;
+  color: rgb(1, 9, 24);
+  font-weight: normal;
+}
